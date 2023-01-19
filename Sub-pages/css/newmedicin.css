@@ -1,0 +1,186 @@
+
+body{
+    background-image: url( ../pictures/midicin.jpg);
+}
+
+
+.cont{
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: auto;
+    padding-right: auto;
+
+}
+  
+/* start the title  */
+.head{
+    text-align: center;
+
+}
+.head::first-letter{
+    background-color:black ;
+    color: white;
+    font-size: 50px;
+
+
+}
+/* end the title  */
+
+
+.parent .cont{
+    background-color: rgba(9, 255, 0, 0.356);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    /* align-items: center; */
+    /* justify-content: space-around; */
+   
+
+}
+
+ /* start the list one for the button */
+.parent .list1{
+     display: flex;
+     flex-direction: column;
+   position: relative;
+   /* float: left; */
+   width: 120px;
+   height: 400px;
+   background-color: transparent;
+     flex-wrap: wrap;
+       justify-content:space-around;
+
+
+}
+.parent .list1 button{
+  background-color: rgba(0, 255, 255, 0);
+  width:110px ;
+  height: 50px;
+  border-radius:0 0 20px 20px;
+  font-size: 15px;
+  border: 5px solid white;
+   
+}
+
+.parent .list1 button a{
+    text-decoration: none;
+
+}
+
+.parent .list1 button:hover{
+background-color: white ;
+box-shadow: 10px 10px red;
+
+}
+/* end the list one for the button */
+
+
+/* start the  logo form */
+.parent .cont .logo{
+    background-color: rgba(255, 217, 0, 0);
+    width: 300px;
+    height: 400px;
+    border-radius: 150px;
+    display: flex;
+    flex-direction: column;
+    border: 10px solid  white;
+    justify-content:space-around; 
+    box-shadow:20px 0px 0px  red ;
+    align-items: center;
+    border-left: none;
+    
+    
+     
+
+
+      
+}
+
+.parent .logo span{
+    background-color:  rgba(255, 255, 255, 0.493);
+    font-size: 20px;
+    width: auto;
+    height: 30px;
+    border: 5px solid white;
+    border-radius: 10px;
+
+
+
+}
+.parent .logo input{
+   
+    height: 25px;
+    border-radius: 10px;
+    border :3px solid white;
+    border-left:0;
+
+}
+
+
+.parent .logo button{
+    background-color:  rgba(255, 255, 255, 0.493);
+    font-size: 20px;
+    font-family: italic;
+    width: auto;
+    height: 35px;
+    border: 5px solid white;
+    border-radius: 10px;
+
+}
+
+.parent .logo button:hover{
+    background-color: white ;
+    box-shadow: 7px 7px red;
+}
+
+   /* end logo form */
+
+
+   /* start the list tow for the button */
+.parent .list2{
+    display: flex;
+    flex-direction: column;
+  position: relative;
+/* float: left; */  
+  width: 120px;
+  height: 400px;
+  background-color: transparent;
+    flex-wrap: wrap;
+      justify-content:space-around;
+
+
+}
+.parent .list2 button{
+    background-color: transparent ;
+    width:110px ;
+    height: 50px;
+    border-radius:0 0 20px 20px;
+    font-size: 15px;
+     border: 5px solid white;
+
+  }
+  .parent .list2 button a{
+      text-decoration: none;
+
+  }
+  .parent .list2 button:hover{
+    background-color: white ;
+    box-shadow: 10px 10px red;
+}
+
+/*end  the list tew for the button  */
+
+.tail{
+    text-align: center;
+    
+
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,19 @@
+.mini p, .navdiv p{
+    text-shadow:0px 0px 10px red;
+    background-color: chartreuse;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px red,
+                0px 20px 20px  yellow;;
+      
+    min-width:20px ;
+    max-width: 400px;
+    max-height: 200px;
+    min-height: 80px;
+    overflow: auto;
+    font-size: larger;
+    font-weight: bold;
+    cursor: grab;
+
+
+}
+ 

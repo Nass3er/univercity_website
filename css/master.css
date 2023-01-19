@@ -1,0 +1,346 @@
+ 
+
+body {
+    margin: 0px;
+    background-color: #CEC;
+ }
+ 
+
+a{
+    text-decoration: none;
+}
+
+.header {
+    background:none;
+    width: 100%;
+    height: 130px;
+    position: absolute;
+    top: 0px;
+    box-shadow: 0px 8px 10px 3px #000000a1;
+    z-index: 300;
+}
+
+.item {
+    background-color:none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    float: left;
+    width:calc(93%/6);
+    margin-left: 1%;
+    border-bottom: 2px solid #888;
+    border-radius: 3px; 
+     
+}
+.header .item a {
+    color:#AAA;
+}
+
+ header .item:hover a{
+ color: #FFF;
+}
+ header .item:hover{
+   border-bottom: 2px solid #BBB;
+}
+  
+/* Start Home */
+ 
+.container{
+   display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    position: relative;
+    top: 20%;
+}
+ .links{
+    position: relative;
+     
+}
+
+ .links .icon{
+    width: 80px;
+    height: 50px;
+    display: flex;
+    align-content: stretch;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+     
+}
+
+ 
+ .links .icon span{
+    width: 100%;
+    height: 4px;
+    background-color: white;
+    margin-bottom: 5px;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+    position: relative;
+    z-index: 5;
+}
+ .links .icon span:nth-child(2){
+    width: 70%;
+}
+ .links :hover span:nth-child(2){
+    width: 100%;
+}
+
+ .links ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: #FFF;
+    position: absolute;
+    right: 0;
+    min-width: 200px;
+    display: none;
+}
+
+
+ .links:hover ul {
+    display: block;
+    width: 250px;
+    height: auto;
+    border-radius: 5px;
+    position: absolute;
+    z-index: 7;
+} 
+
+.header input[type="search"]{
+    position:absolute;
+    left: 5%;
+    top: 68%;
+    outline:none;
+    border:none;
+    border-bottom: 2px solid #888;
+    width: 20%;
+    height:35px;
+    background:none;
+    padding:5px;
+    color:white;
+    font-size: medium;
+    transition: width .5s;
+ }
+ 
+.header input[type="search"]:focus{
+    border-bottom: 2px solid #BBB;
+    width: 50%;
+ }
+
+ .header input::placeholder{
+     color: whitesmoke;
+ }
+
+ .header .beforebox {
+    position: absolute;
+    top: 65%;
+    left: 3%;
+    width: 0px;
+    height: 0px;
+    border-width: 19px;
+    border-style: solid;
+    border-left-color: #555;
+    border-right-color: none;
+    border-top-color: none;
+    border-bottom-color: none;
+
+ }
+  
+
+/* 
+ .links  :hover .opacity {
+    position: fixed;
+    right: 50%;
+    background-color: rgba(0, 0, 0, 0.329);
+    margin-top: -18%;
+    margin-right: -100%;
+    padding: 100%;
+    z-index: 1;
+    
+}  */
+/*  .links .opacity:hover .opacity  {
+    position: fixed;
+    display: none;
+    background:none;
+    width:0px;
+    height:0px;
+    padding: 0px;
+    margin: 0px;
+    
+}  */
+
+ .links ul::before{
+    content: "";
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent transparent #f6f6f6 transparent;
+    position: absolute;
+    right: 5px;
+    top: -20px;
+     
+}
+ .links ul li a{
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    color: #333;
+    transition: .3s;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+}
+ .links ul li a:hover{
+    padding : 20px;
+
+}
+ .links ul li:not(:last-child) a{
+    border-bottom: 2px #ddd solid;
+}
+ 
+/* End Home  */
+
+
+.clear {
+    clear: both;
+}
+    
+.introImage {
+    background-image: url(../Pictures/best2.png);
+    background-attachment: fixed;
+    color: white;
+    text-align: center;
+    background-size: contain;
+    padding: 100px;
+    position: relative;
+    height: 700px;
+    width: 100%;
+    top: -150px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px 0px;
+    margin-top: 12%;
+    display: block;
+    box-sizing: border-box;
+    text-shadow: 5px 10px 10px grey;
+    z-index: 250;
+}
+.words {
+    font-size: xx-large;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10px;
+    text-align: center;
+    border-top: 10px solid #333;
+    border-bottom: 10px solid #333;
+     
+}
+.words::first-line {
+    color: #555;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+main .last h1 {
+    text-align: center;
+    letter-spacing: 15px;
+    font-size: 70px;
+    background-color: #333;
+    color: #FFF;
+    height: 100px;
+
+}
+
+main .last span {
+    width: 100%;
+    height: 100px;
+    background-color: #fff;
+    border: 2px solid pink;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bolder;
+    font-size: x-large;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-left: 10px;
+
+}
+
+main article.images {
+    margin-top: 10%;
+}
+
+main article.images img {
+    display: inline;
+    width: 500px;
+    height: 420px;
+    margin: 21px 50px ;
+    border-radius: 10px;
+    position: relative;
+    box-sizing: border-box;
+    border: 10px solid #BBB;
+    box-shadow: 0px 0px 16px 12px #555;
+    transition:all .5s;
+}
+main article.images img:hover {
+     
+    width: 530px;
+    height: 450px;  
+    border: 10px solid #777;
+    box-shadow: 0px 0px 16px 12px #AAA;
+}
+
+.goto {
+
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    width: 0px;
+    height: 0px;
+    border-width: 20px;
+    border-style: solid;
+    border-left-color:#FFF;
+    border-right-color: #FFF;
+    border-top-color: #FFF;
+    outline:3px solid #000;
+    border-bottom-color :#000;
+    border-radius: 200px 200px 0px 0px ;
+    z-index: 200;
+     
+}
+
+
+.goto:hover {
+
+    bottom: 20px;
+}
+
+
+ 
+footer{
+    background-color: #999;
+    color: #000;
+    float: left;
+    height: 250px;
+    padding-left: 5%;
+    width:calc(80%/4);
+}
+
+footer li {
+    list-style-type: none;
+}
+ 
+footer a {
+    color: #000;
+}
+
+
+main a:hover,footer a:hover {
+    color: #555;
+}
+
+ 

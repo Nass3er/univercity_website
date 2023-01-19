@@ -1,0 +1,138 @@
+*{
+    -webkit-box-sizing:border-box ;
+    -moz-box-sizing:border-box ;
+    box-sizing: border-box;
+    }
+
+    body {
+        /* background-color: #999; */
+    }
+      
+.parent{
+width:80%;
+height:auto ;
+background-color:beige;
+margin-right:auto ;
+margin-left: auto;
+padding-left: auto;
+padding-right: auto;
+display:flex ;
+flex-wrap: wrap;
+justify-content: space-around;
+flex-direction: row;
+    align-content: stretch;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* small */
+@media(max-width:768px){
+    .parent{
+        width: 750px;
+        display: grid;
+        justify-items: center;
+    justify-content: center;
+    padding-bottom: 5px;
+    }
+}
+/* medium */
+@media(min-width:992px){
+    .parent{
+        width: 970px;
+    }
+}
+/* large*/
+@media(min-width:1200px){
+    .parent{
+        width: 1170px;
+    }
+}
+.p{
+    color:  crimson;
+    padding: 15px;
+    font-size: 100px;
+    letter-spacing:4px ;
+     background-color: mistyrose;
+    font-weight: bold;
+    position: initial;
+    width: 100%;
+    text-align: center;
+
+
+
+ }
+
+
+/* .parent p{
+ font-family: serif ;
+font-size: larger;
+ text-align: center;
+ color: lawngreen;
+} */
+
+  
+.parent .parent1{
+ 
+ width: 45%;
+ height: 400px;
+ padding: 15px;
+ padding-top: 5px;
+ position: relative;
+margin-bottom: 10px;
+}
+.parent1 .element{
+    align-items: center;
+
+}
+
+ .parent1 .element img{
+    width: 90%;
+    height:280px;
+    border-radius: 10px;
+    display: inline;
+    border-radius: 10px;
+    position: relative;
+    box-sizing: border-box;
+    border: 8px solid #BBB;
+    box-shadow: 0px 0px 16px 12px rgb(255, 255, 255);
+    transition:all .5s;
+ 
+
+}
+
+ .parent1 .element img:hover{
+    width: 96%;
+    height:300px;
+    border: 10px solid rgb(255, 255, 255);
+    box-sizing: border-box;
+    box-shadow: 0px 0px 16px 12px  rgb(238, 182, 175);
+    
+ 
+
+}
+h2{
+     margin-top: 5px;
+     margin-bottom: 0pc;
+}
+.parent1 .element p{
+    text-align: center;
+    background-color:  transparent;
+    padding-inline: 20px;
+    line-height: unset;
+    margin-right: 20px;
+    margin-top: 0;
+}
+.parent1 .element p a{
+    color: blue;
+    text-decoration: none;
+
+}
+.tail{
+    text-align: center;
+
+    background-color:mistyrose ;
+    width: 100%;
+    height: 30px;
+}
+ 

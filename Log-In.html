@@ -1,0 +1,134 @@
+<html>
+
+<head>
+    <title>Nasser pages
+    </title>
+
+
+
+    <style>
+        body {
+            padding: 0;
+            margin: 0;
+            font-family: sans-serlf;
+            background-image: url("Pictures/Anami_image1.jpg");
+            background-size: fixed;
+        }
+
+        form {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 350px;
+            height: 420px;
+            background: rgba(0, 0, 0, 0.5);
+            border-radius: 10px;
+            /* box-sizing:border-box; */
+        }
+
+        input[type="text"],
+        [type="password"] {
+            position: absolute;
+            outline: none;
+            border: none;
+            width: 250px;
+            height: 35px;
+            border-bottom: 2px solid #888;
+            background: none;
+            padding: 5px;
+            color: #fff
+        }
+
+        input[type="text"],
+        [type="password"]:hover {
+
+            cursor: default;
+        }
+
+        input[type="text"]:focus,
+        input[type="password"]:focus {
+            border-bottom: 3px solid #DDD;
+        }
+
+        input[type="text"] {
+            top: 140px;
+            left: 50px
+        }
+
+        [type="password"] {
+            top: 210px;
+            left: 50px
+        }
+
+        input[value="LOG IN"] {
+            position: absolute;
+            top: 305px;
+            left: 110px;
+            width: 130px;
+            height: 35px;
+            background: #CCC;
+            outline: none;
+            border: none;
+            border-radius: 15px;
+            font-size: 20px;
+            font-weight: bold;
+
+        }
+
+        input[value="LOG IN"]:hover {
+            background: #EEE;
+        }
+
+        h1 {
+            margin-left: 28%;
+            letter-spacing: 5px;
+            font-weight: bolder;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 50px;
+        }
+
+        h2 {
+            color: white;
+            font-size: 70px;
+            text-shadow: 10px 10px 10px #444;
+            margin-left: 20%;
+            margin-top: -8px;
+        }
+
+        input::placeholder {
+            color: rgba(255, 255, 255, 0.76);
+        }
+
+        form p {
+            color: #FFF;
+            font-weight: bolder;
+            position: absolute;
+            bottom: 28%;
+            left: 30%;
+        }
+
+        form p a {
+            color: lightblue;
+            text-decoration: none;
+            font-size: larger;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>WELLCOME FOR YOU </h1>
+
+    <form action="mailto:n716527766@gmail.com" method="post">
+
+        <h2>Log In</h2>
+        <input type="text" placeholder="Enter Academic no.">
+        <input type="password" placeholder="Enter password">
+        <p>Haven't get student yet ? <a href=""> Sign Up </a></p>
+        <input type="button" value="LOG IN">
+
+    </form>
+</body>
+
+</html>

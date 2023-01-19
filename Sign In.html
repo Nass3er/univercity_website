@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Sign In</title>
+
+<style>
+
+body{
+ 
+background-image:linear-gradient(200deg , blue ,white 43% ,blue);
+background-size:cover;
+background-attachment:fixed;
+
+}
+table{
+color:white;
+border-width:3px;
+border-radius:15px;
+padding:10px;
+padding-right:20px;
+margin-top:30px;
+background-position:center;
+ 
+background-color:rgba(1,1,100,0.3);
+
+}
+label,input>[placeholder]{
+
+color:lightgreen;
+
+}
+
+input {
+
+background-color:rgba(1,1,0,0.4);
+padding:5px;
+
+border:2px outset lightblue;
+border-radius:8px;
+width:100%;
+height:10%;
+
+}
+
+</style>
+</head>
+<body>
+<form >  
+<table  action="tablepage" align="center" cellpadding="5" >  
+ <tr>  
+
+  <th > <h1 style=" color:lightgreen; padding:3px solid black; text-shadow:9px 9px 8px white;">Sign In</h1> </th>  
+  </tr>  
+
+  <tr>   
+  <td><label>Username</label><br/><input type="text" id="email" placeholder="Enter your email" required></td> 
+  </tr>  
+  <tr>    
+  
+<td><label>Password</label><br/><input type="password" id="pass" placeholder="Enter your Password" required></td>  
+ </tr>
+ 
+ <tr>    
+<td   style="padding-left:15px;  " ><input type="submit" for="tablepage" value="Sign In">  </td> 
+
+  </tr> 
+  
+  <tr >    
+<td   >
+  <a href="Log in.html">  <h5  >Haven't got an account yet? Sign up!</h5>  </a>
+</td>   
+</tr>
+ </table> 
+</form>
+</body>
+</html>
